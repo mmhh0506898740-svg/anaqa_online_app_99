@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "أناقة أون لاين",
+    "slug": "anaqa-online",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["android", "ios"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2A0638"
+    },
+    "android": {
+      "package": "com.anaqaonline.store",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-foreground.png",
+        "backgroundColor": "#2A0638"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.anaqaonline.store",
+      "buildNumber": "3",
+      "supportsTablet": true
+    }
+  }
+}
